@@ -45,7 +45,6 @@ public class permutations_i {
         List<List<int>> res = PermutationsI(nums);
 
         Console.WriteLine("输入数组 nums = " + string.Join(", ", nums));
-        Console.WriteLine("所有排列的个数是 = " + res.Count);
         Console.WriteLine("所有排列 res = ");
         foreach (List<int> permutation in res) {
             PrintUtil.PrintList(permutation);
